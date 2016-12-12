@@ -1,0 +1,21 @@
+183
+L L B B B U U B B B D F L' F' L F U' F' B B R F D' F' R B' R' U' B' U B D' B' D L B' L' D' B' D B L' B' L U B' U' L' B' L B R' B' R B D B' D' B' R' B R B B B' U' B U B R B' R' B B B B' D' B D B L B' L' B D B' D' B' R' B R B B B B' L' B L B U B' U' B D B D' B D B B D' D B D' B D B B D' L' B R B' L B R' B' R' B L B' R B L' B' R' B L B' R B L' B' D' B U B' D B U' B' D' B U B' D B U' B' L U R' B L B' R B L' B' U' L' D L U' B D B' U B D' B' L' D' 
+
+000
+000
+000
+111
+111
+111
+222
+222
+222
+333
+333
+333
+444
+444
+444
+555
+555
+555
