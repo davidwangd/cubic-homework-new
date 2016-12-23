@@ -211,6 +211,7 @@ int init(){
 	char2col['B'] = Color[4];
 	char2col['G'] = Color[5];
 	FILE *f = fopen("ColorTrans","r");
+	freopen("ErrorLog.txt", "w", stdout);
 	static char st[10];
 	fscanf(f, "%s", st);
 	for (int i = 0;i < 6;i++){

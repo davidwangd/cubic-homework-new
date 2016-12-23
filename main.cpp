@@ -10,7 +10,7 @@ map<char,int> m;
 int main()
 {
 	freopen("question","w",stderr);
-	freopen("ColorTrans","w",stdout);
+	FILE *out = fopen("ColorTrans", "w");
 	for (int i = 0;i < 6;i++){
 		scanf("%s",s[i]);
 	}
@@ -30,14 +30,26 @@ int main()
 	for (int i = 0;i < 6;i++){
 		for (map<char,int>::iterator it = m.begin();it != m.end();it++){
 			if (it -> second == i){
-				printf("%c",it -> first);
+				fprintf(out, "%c", it -> first);
 			}
 		}
 	}
-	fclose(stdout);
+	fclose(out);
+
 	system("./cubic");
+	freopen("output.txt","r",stdin);
+	int n;
+	scanf("%d",&n);
+	char st[5];
+	for (int i = 0;i < n;i++){
+		scanf("%s", st);
+		if (st[1] == '\'') st[1] = 'i';
+		printf("%s ",st);
+	}
+
 //	system("./render");
 	return 0;
+
 }
 
 /*
@@ -47,4 +59,12 @@ RWRBRGOBO
 GWBBOYRRY
 ORGOWRYYG
 OGWGYWWGW
+*/
+/*
+RYWYGOBYO
+GWOGBBYGO
+RBRWYRWBB
+YGGWWOYGO
+GRYWROWRB
+WBGYORBOR
 */
