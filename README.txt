@@ -1,3 +1,6 @@
+main.cpp	:	从标准输入输出得到符合格式的输入并进行转码存到question中，
+				运行./cubic将得到一组输出到output.txt
+				从output.txt读取./cubic的输出并进行一定的转码放入标准输出
 gen.cpp		:	随机拧几步生成一个打乱的魔方
 (gen)			Input:	standard
 				Output:	question
@@ -31,3 +34,4 @@ standard 	:	用于存储标准魔方格式，方便数据生成器生成数据�
 
 error		:	存储cubic输出的错误调试信息(正常时为空)
 colorTrans	:	main通过这个参数将魔方的初始放置方式传递给render
+
